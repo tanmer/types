@@ -36,6 +36,7 @@ type RKEConfigNode struct {
 	User string `yaml:"user" json:"user,omitempty"`
 	// Optional - Docker socket on the node that will be used in tunneling
 	DockerSocket string `yaml:"docker_socket" json:"dockerSocket,omitempty"`
+	DockerGraph string `yaml:"docker_graph" json:"dockerGraph,omitempty"`
 	// SSH Private Key
 	SSHKey string `yaml:"ssh_key" json:"sshKey,omitempty"`
 	// SSH Private Key Path
